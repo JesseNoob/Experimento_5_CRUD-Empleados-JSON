@@ -82,41 +82,34 @@ namespace Experimento_5_CRUD_Trabajadores.MiniDataBase
             }
             
         }
-        public static bool BuscarEmpleado(List<Empleado>lista, string campo,string contenido)
+        //Dupla
+        public static (bool,int) BuscarEmpleado(List<Empleado>lista, string campo,string contenido)
         {
-            bool EmpleadoEncontrado = false;
             for (int i = 0; i < ListaPrincipal.Count(); i++)
             {
-                switch (campo.ToLower())
+                if (campo.ToLower() == "nombre")
                 {
-                    case "nombre":
-                        if (contenido == lista[i].Nombre.ToLower())
-                            {
-                              EmpleadoEncontrado = true;
-                              return EmpleadoEncontrado;
-                            }
-                    break;
-                    case "apellido":
-                        if (contenido == lista[i].Apellido.ToLower())
-                        {
-                            EmpleadoEncontrado = true;
-                            return EmpleadoEncontrado;
-                        }
-                        break;
-                    case "id":
-                        if (int.Parse(contenido) == lista[i].ID)
-                        {
-                            EmpleadoEncontrado = true;
-                            return EmpleadoEncontrado;
-                        }
-                        break;
-                    default:
-                        EmpleadoEncontrado = false;
-                        return EmpleadoEncontrado;
+                    if (lista[i].Nombre == contenido)
+                    {
+                        
+                        return (true,i);
+                    }
+                }else if (campo.ToLower() == "apellido")
+                {
+                    if (lista[i].Apellido == contenido)
+                    {
+                        return (true, i);
+                    }
+                }else if (campo.ToLower() == "id")
+                {
+                    if (lista[i].ID == int.Parse(contenido))
+                    {
+                        return (true, i);
+                    }
                 }
-               
+        
             }
-            return EmpleadoEncontrado;
+            return (false,0);
         }
         #endregion
 
