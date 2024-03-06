@@ -87,18 +87,20 @@ namespace Experimento_5_CRUD_Trabajadores
                     break;
 
                     case 5:
-                        Console.WriteLine("Ingrese el campo que se va a buscar");
-                        campo = Console.ReadLine();
-                        Console.WriteLine("Ingrese el dato del campo para iniciar busqueda");
-                        contenido = Console.ReadLine();
-                        if (GestionDeDatos.BuscarEmpleado(GestionDeDatos.ListaPrincipal, campo, contenido))
-                        {
-                            Console.WriteLine("Dato Encontrado");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Dato No encontrado");
-                        }
+                         Console.WriteLine("Ingrese el campo que se va a buscar");
+                         campo = Console.ReadLine();
+                         Console.WriteLine("Ingrese el dato del campo para iniciar busqueda");
+                         contenido = Console.ReadLine();
+                         //Resultados de la dupla
+                         (bool Existe, int i) = GestionDeDatos.BuscarEmpleado(GestionDeDatos.ListaPrincipal, campo, contenido);
+                         if (Existe)
+                         {
+                             Console.WriteLine("\n------------\nDato Encontrado:\nNombre: {0}\nApellido: {1}\nPuesto: {2}\nID: {3}\n------------", GestionDeDatos.ListaPrincipal[i].Nombre, GestionDeDatos.ListaPrincipal[i].Apellido, GestionDeDatos.ListaPrincipal[i].Puesto, GestionDeDatos.ListaPrincipal[i].ID);
+                         }
+                         else
+                         {
+                             Console.WriteLine("Dato No encontrado o Campo mal escrito");
+                         }
                     break;
 
                     case 6:
