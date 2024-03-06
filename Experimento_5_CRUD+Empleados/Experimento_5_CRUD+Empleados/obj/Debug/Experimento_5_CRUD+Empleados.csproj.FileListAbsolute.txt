@@ -1,0 +1,10 @@
+C:\Users\steve\OneDrive\Escritorio\Proyectos\The Ultimate program -2024\II) investigación\Experimento_5_CRUD+Empleados\Experimento_5_CRUD+Empleados\bin\Debug\Experimento_5_CRUD+Empleados.exe.config
+C:\Users\steve\OneDrive\Escritorio\Proyectos\The Ultimate program -2024\II) investigación\Experimento_5_CRUD+Empleados\Experimento_5_CRUD+Empleados\bin\Debug\Experimento_5_CRUD+Empleados.exe
+C:\Users\steve\OneDrive\Escritorio\Proyectos\The Ultimate program -2024\II) investigación\Experimento_5_CRUD+Empleados\Experimento_5_CRUD+Empleados\bin\Debug\Experimento_5_CRUD+Empleados.pdb
+C:\Users\steve\OneDrive\Escritorio\Proyectos\The Ultimate program -2024\II) investigación\Experimento_5_CRUD+Empleados\Experimento_5_CRUD+Empleados\bin\Debug\Newtonsoft.Json.dll
+C:\Users\steve\OneDrive\Escritorio\Proyectos\The Ultimate program -2024\II) investigación\Experimento_5_CRUD+Empleados\Experimento_5_CRUD+Empleados\bin\Debug\Newtonsoft.Json.xml
+C:\Users\steve\OneDrive\Escritorio\Proyectos\The Ultimate program -2024\II) investigación\Experimento_5_CRUD+Empleados\Experimento_5_CRUD+Empleados\obj\Debug\Experimento_5_CRUD+Empleados.csproj.AssemblyReference.cache
+C:\Users\steve\OneDrive\Escritorio\Proyectos\The Ultimate program -2024\II) investigación\Experimento_5_CRUD+Empleados\Experimento_5_CRUD+Empleados\obj\Debug\Experimento_5_CRUD+Empleados.csproj.CoreCompileInputs.cache
+C:\Users\steve\OneDrive\Escritorio\Proyectos\The Ultimate program -2024\II) investigación\Experimento_5_CRUD+Empleados\Experimento_5_CRUD+Empleados\obj\Debug\Experimento_5_CRUD+Empleados.csproj.CopyComplete
+C:\Users\steve\OneDrive\Escritorio\Proyectos\The Ultimate program -2024\II) investigación\Experimento_5_CRUD+Empleados\Experimento_5_CRUD+Empleados\obj\Debug\Experimento_5_CRUD+Empleados.exe
+C:\Users\steve\OneDrive\Escritorio\Proyectos\The Ultimate program -2024\II) investigación\Experimento_5_CRUD+Empleados\Experimento_5_CRUD+Empleados\obj\Debug\Experimento_5_CRUD+Empleados.pdb
